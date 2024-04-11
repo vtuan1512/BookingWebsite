@@ -1,0 +1,79 @@
+{
+  "room": [
+    {
+      "id": 1,
+      "name": "Single Room",
+      "hotelId": 2,
+      "imageURl": "https://media-cdn-v2.laodong.vn/storage/newsportal/2023/8/26/1233821/Giai-Nhat--Dem-Sai-G.jpg",
+      "price": 50.99,
+      "features": [
+        "1 Sofa",
+        "1 Bathroom",
+        "1 Balcony"
+      ],
+      "facilities": [
+        "Television",
+        "Free WiFi",
+        "Breakfast",
+        "Gym",
+        "Safe",
+        "Air Conditioning"
+      ],
+      "adult": 1,
+      "children": 0,
+      "description": "This is a single room with all the basic amenities.",
+      "availibility": true,
+      "rating": 8.9
+    },
+    {
+      "id": 2,
+      "name": "Deluxe room",
+      "hotelId": 2,
+      "imageURl": "https://media-cdn-v2.laodong.vn/storage/newsportal/2023/8/26/1233821/Giai-Nhat--Dem-Sai-G.jpg",
+      "price": 90.1,
+      "features": [
+        "1 Sofa",
+        "1 Bathroom",
+        "1 Balcony"
+      ],
+      "facilities": [
+        "AC",
+        "Cable TV",
+        "Dining Table/Chairs"  
+      ],
+      "adult": 2,
+      "children": 1,
+      "description": "Best hotel in DaLat",
+      "availibitity": true,
+      "rating": 9.9
+    },
+    {
+      "id": 3,
+      "name": "Standard room",
+      "hotelId": 2,
+      "imageURl": "https://media-cdn-v2.laodong.vn/storage/newsportal/2023/8/26/1233821/Giai-Nhat--Dem-Sai-G.jpg",
+      "price": 190.1,
+      "features": [
+        "2 Sofa",
+        "1 Table",
+        "1 Bathroom",
+        "1 Balcony"
+      ],
+      "facilities": [
+        "AC",
+        "Cable TV",
+        "Dining Table/Chairs",
+        "Free Wifi",
+        "Gym",
+        "Breakfast",
+        "Smart TV",
+        "Safe"
+      ],
+      "adult": 4,
+      "children": 2,
+      "description": "Best hotel in DaLat with large rooms and modern facilities.",
+      "availibitity": true,
+      "rating": 9.9
+    }
+  ]
+}
