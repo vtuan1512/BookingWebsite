@@ -42,7 +42,7 @@ require('/Xampp/xampp/htdocs/BookingWebsite/admin/inc/essentials.php');
 <body class="bg-light">
 
     <?php 
-    require('../admin/inc/header_manager.php') ;
+    require('../admin/inc/header.php') ;
     session_start();
     if (!(isset($_SESSION['adminLogin']) && $_SESSION['adminLogin'] == true)) {
         redirect('adminindex.php');
