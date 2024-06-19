@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DaLat Hotel Contact Us </title>
+    
     <?php require('inc/links.php'); ?>
+    <title><?php echo $settings_r['site_title'] ?> - Contact Us</title>
 
 </head>
 
@@ -13,13 +14,10 @@
     <?php require('inc/header.php'); ?>
 
     <div class="my-5 px-4">
-        <h2 class="fw-bold h-font text-center">CONTACT US</h2>
+        <h2 class="fw-bold text-center">CONTACT US</h2>
         <div class="h-line bg-dark"></div>
         <p class="text-center mt-3">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            Ut veritatis odit adipisci amet, saepe explicabo inventore
-            quis possimus, <br>deserunt fugit nulla facilis maiores repellat
-            culpa atque, sapiente assumenda! Voluptatem, dolor!
+        For any queries or assistance with your booking, please contact our customer support team. We are here to help you 24/7.
         </p>
     </div>
 
@@ -91,7 +89,7 @@
                             <label class="form-label" style="font-weight: 500;">Message</label>
                             <textarea name="message" required class="form-control shadow-none" rows="5" style="resize: none;"></textarea>
                         </div>
-                        <button type="submit" name="send" class="btn text-white custom-bg mt-3">SEND</button>
+                        <button type="submit" name="send" class="btn text-white bg-dark mt-3" style="margin-left: 500px;">SEND</button>
                     </form>
                 </div>
             </div>

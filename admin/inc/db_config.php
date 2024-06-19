@@ -13,16 +13,23 @@ if ($con->connect_error) {
 
 function filteration($data)
 {
+    if (!is_array($data)) {
+        return $data;
+    }
     foreach ($data as $key => $value) {
         $value = trim($value);
         $value = stripslashes($value);
         $value = htmlspecialchars($value);
         $value = strip_tags($value);
 
-        $data[ $key ] = $value;
+        // Update the value in the array
+        $data[$key] = $value;
     }
+
+    // Return the sanitized array
     return $data;
 }
+
 
 function selectAll($table)
 {

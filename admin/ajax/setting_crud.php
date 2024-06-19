@@ -1,5 +1,4 @@
 <?php
-
 require('/Xampp/xampp/htdocs/BookingWebsite/admin/inc/db_config.php');
 require('/Xampp/xampp/htdocs/BookingWebsite/admin/inc/essentials.php');
 // adminLogin();
@@ -80,7 +79,6 @@ if (isset($_POST['get_members'])) {
         data;
     }
 }
-
 if(isset($_POST['rem_member'])){
     $frm_data =  filteration($_POST);
     $values = [$frm_data['rem_member']];

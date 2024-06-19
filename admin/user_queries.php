@@ -1,9 +1,7 @@
 <?php
-require('/Xampp/xampp/htdocs/BookingWebsite/admin/inc/essentials.php');
 require('/Xampp/xampp/htdocs/BookingWebsite/admin/inc/db_config.php');
-// ini_set("SMTP", "smtp.example.com");
-// ini_set("smtp_port", "587"); // Example port for SMTP submission
-// adminLogin()
+require('/Xampp/xampp/htdocs/BookingWebsite/admin/inc/essentials.php');
+adminLogin();
 
 
 if (isset($_GET['seen'])) {
@@ -27,42 +25,7 @@ if (isset($_GET['seen'])) {
         }
     }
 }
-// if (isset($_GET['seen'])) {
-//     $frm_data = filteration($_GET);
 
-//     if ($frm_data['seen'] == 'all') {
-//         $q = "UPDATE `user_queries` SET `seen`=? ";
-//         $values = [1];
-//         if (update($q, $values, 'i')) {
-//             alert('success', 'Query marked all as read !');
-//         } else {
-//             alert('error', 'Error in marking query as seen !');
-//         }
-//     } else {
-//         $q = "UPDATE `user_queries` SET `seen`=? WHERE `id`=?";
-//         $values = [1, $frm_data['seen']];
-//         if (update($q, $values, 'ii')) {
-//             // Retrieve user email
-//             $email_query = "SELECT email FROM `user_queries` WHERE `id`=?";
-//             $email_result = select($email_query, [$frm_data['seen']], 'i');
-//             $user_email = mysqli_fetch_assoc($email_result)['email'];
-
-//             // Send email to user
-//             $to = $user_email;
-//             $subject = "Your query has been marked as read";
-//             $message = "Your query has been marked as read by the administrator.";
-//             $headers = "From: tuanva.ba11-097@st.edu.usth.vn";
-
-//             if (mail($to, $subject, $message, $headers)) {
-//                 alert('success', 'Query marked as read and email sent!');
-//             } else {
-//                 alert('error', 'Error sending email to user!');
-//             }
-//         } else {
-//             alert('error', 'Error in marking query as seen !');
-//         }
-//     }
-// }
 
 if (isset($_GET['del'])) {
     $frm_data = filteration($_GET);
@@ -93,7 +56,7 @@ if (isset($_GET['del'])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin User Queries</title>
-    <?php require('/Xampp/xampp/htdocs/BookingWebsite/admin/inc/links.php') ?>
+    <?php require('../admin/inc/links.php') ?>
 </head>
 <style>
     #dashboard-menu {
@@ -122,7 +85,7 @@ if (isset($_GET['del'])) {
 
 <body class="bg-light">
 
-    <?php require('/Xampp/xampp/htdocs/BookingWebsite/admin/inc/header.php') ?>
+    <?php require('../admin/inc/header.php') ?>
 
     <div class="container-fluid" id="main-content">
         <div class="row">
@@ -185,7 +148,7 @@ if (isset($_GET['del'])) {
         </div>
     </div>
 
-    <?php require('/Xampp/xampp/htdocs/BookingWebsite/admin/inc/scripts.php') ?>
+    <?php require('../admin/inc/scripts.php') ?>
 
 
 

@@ -1,6 +1,7 @@
 <?php
+
 require('/Xampp/xampp/htdocs/BookingWebsite/admin/inc/essentials.php');
-// adminLogin()
+adminLogin()
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -9,7 +10,7 @@ require('/Xampp/xampp/htdocs/BookingWebsite/admin/inc/essentials.php');
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Setting</title>
-    <?php require('/Xampp/xampp/htdocs/BookingWebsite/admin/inc/links.php') ?>
+    <?php require('../admin/inc/links.php') ?>
     <style>
         #dashboard-menu {
             height: 100%;
@@ -34,7 +35,7 @@ require('/Xampp/xampp/htdocs/BookingWebsite/admin/inc/essentials.php');
 
 <body class="bg-light">
 
-    <?php require('/Xampp/xampp/htdocs/BookingWebsite/admin/inc/header.php') ?>
+    <?php require('../admin/inc/header.php') ?>
 
     <div class="container-fluid" id="main-content">
         <div class="row">
@@ -268,8 +269,8 @@ require('/Xampp/xampp/htdocs/BookingWebsite/admin/inc/essentials.php');
         </div>
     </div>
 
-    <?php require('/Xampp/xampp/htdocs/BookingWebsite/admin/inc/scripts.php') ?>
-    <script src="/admin//scripts//setting.js"></script>
+    <?php require('../admin/inc/scripts.php') ?>
+    <script src="/admin/scripts//setting.js"></script>
     
 </body>
 
