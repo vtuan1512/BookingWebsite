@@ -1,9 +1,24 @@
 <?php
+
+
 require('/Xampp/xampp/htdocs/BookingWebsite/admin/inc/db_config.php');
 require('/Xampp/xampp/htdocs/BookingWebsite/admin/inc/essentials.php');
+session_start(); // Start the session
 
+if (!(isset($_SESSION['adminLogin']) && $_SESSION['adminLogin'] == true)) {
+    redirect('adminindex.php');
+}
 
+$u_exist = null;
+if (isset($_SESSION['adminId'])) {
+    $u_exist = select("SELECT * FROM `user_cred` WHERE `id`=? LIMIT 1", [$_SESSION['adminId']], 'i');
+}
 
+if ($u_exist && mysqli_num_rows($u_exist) == 0) {
+    redirect('adminindex.php');
+}
+
+$u_fetch = mysqli_fetch_assoc($u_exist);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -40,20 +55,9 @@ require('/Xampp/xampp/htdocs/BookingWebsite/admin/inc/essentials.php');
 </style>
 
 <body class="bg-light">
+    <?php
+    require('../admin/inc/header.php');
 
-    <?php 
-    require('../admin/inc/header.php') ;
-    session_start();
-    if (!(isset($_SESSION['adminLogin']) && $_SESSION['adminLogin'] == true)) {
-        redirect('adminindex.php');
-    }
-    $u_exist = select("SELECT * FROM `user_cred` WHERE `id`=? LIMIT 1", [$_SESSION['adminId']], 'i');
-
-    if (mysqli_num_rows($u_exist) == 0) {
-        redirect('adminindex.php');
-    }
-
-    $u_fetch = mysqli_fetch_assoc($u_exist);
     ?>
 
     <div class="container-fluid" id="main-content">
@@ -143,7 +147,7 @@ require('/Xampp/xampp/htdocs/BookingWebsite/admin/inc/essentials.php');
     <?php require('../admin/inc/scripts.php') ?>
     <script src="/admin/scripts/profile.js"></script>
     <script>
-       
+
     </script>
 
 

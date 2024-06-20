@@ -183,7 +183,7 @@ adminLogin()
             <form id="edit_room_form" autocomplete="off">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h1 class="modal-title">Add Room</h1>
+                        <h1 class="modal-title">Edit Room</h1>
                     </div>
                     <div class="modal-body">
                         <div class="row">
