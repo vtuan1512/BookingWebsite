@@ -34,7 +34,7 @@ if (isset($_POST['get_users'])) {
             <tr>
                 <td>$i</td>
                 <td>
-                <img src='$path$row[profile]' width='55px'>
+                <img src='$path$row[profile]' width='100px' height='100px'>
                 <br>
                 $row[name]
                 </td>
