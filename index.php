@@ -249,7 +249,7 @@
             </div>
         </div>
     </div> -->
-    <h2 class="mt-5 pt-4 mb-4 text-center fw-bold ">Special Rooms</h2>
+    <h2 class="mt-5 pt-4 mb-4 text-center fw-bold ">Special Hotel</h2>
     <div class="container">
         <div class="row">
             <?php

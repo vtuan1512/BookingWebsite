@@ -44,7 +44,7 @@ Da Lat Booking has been trusted and chosen by millions of users for their vacati
                 </p>
             </div>
             <div class="col-lg-5 col-md-5 mb-4 order-lg-2 order-md-2 order-1">
-                <img src="images/about/about.jpg" class="w-100">
+                <img src="/images/hotel/IMG_12342.jpg" class="w-100">
             </div>
         </div>
     </div>
