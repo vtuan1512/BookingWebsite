@@ -64,7 +64,7 @@
                     if ($data['booking_status'] == 'booked') {
                         $status_bg = 'bg-success';
                         if ($data['arrival'] == 1) {
-                            $btn = "<a class='btn btn-dark btn-sm shadow-none'> View Details </a>";
+                            $btn = "<a class='btn btn-dark btn-sm shadow-none' href='confirm_booking.php?id=$data[room_id]'> Rebooking </a>";
                             if ($data['rate_review'] == 0) {
                                 $btn .= "<button type='button' onclick='review_room($data[booking_id],$data[room_id])' data-bs-toggle='modal' data-bs-target='#reviewModal'
                      class='btn btn-dark btn-sm shadow-none ms-2'>Rate & Review</button>";
@@ -77,11 +77,11 @@
                         if ($data['refund'] == 0) {
                             $btn = "<span class='badge bg-primary'> Refund in process! </span>";
                         } else {
-                            $btn = "<a class='btn btn-dark btn-sm shadow-none'> View Details </a>";
+                            $btn = "<a class='btn btn-dark btn-sm shadow-none' href='confirm_booking.php?id=$data[room_id]'> Rebooking </a>";
                         }
                     } else {
                         $status_bg = 'bg-warning text-dark';
-                        $btn = "<a class='btn btn-dark btn-sm shadow-none'> View Details </a>";
+                        $btn = "<a class='btn btn-dark btn-sm shadow-none' href='confirm_booking.php?id=$data[room_id]'> Rebooking </a>";
                     }
 
                     echo <<<bookings

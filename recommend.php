@@ -37,10 +37,10 @@
         <h2 class="fw-bold text-center">BEST DESTINATION IN DALAT</h2>
         <div class="h-line bg-dark"></div>
         <p class="text-center mt-3">
-        Đà Lạt là thủ phủ của tỉnh Lâm Đồng. Với độ cao 1.500 m trên mặt nước biển. tiết trời Đà Lạt mát lạnh, là nơi nghỉ dưỡng lý tưởng ở khu vực miền Nam. <br>
-        Từng một thời nổi tiếng với các điểm tham quan như Thung Lũng Tình Yêu, Hồ Than Thở, Đồi Thông Hai Mộ, Thác Voi… 
-        Các điểm tham quan chính hiện nay<br> khi du lịch Đà Lạt gồm có Hồ Xuân Hương, Đỉnh Langbiang, Dinh Bảo Đại, Biệt Điện Trần Lệ Xuân, Thiền Viện Trúc Lâm, Hồ Tuyền Lâm, Nhà Ga Đà Lạt (Nhà ga Trại Mát)… <br>
-        Chỉ cách Sài Gòn chừng 300km, thành phố Đà Lạt là nơi nghỉ dưỡng tuyệt vời. Giúp du khách thoát khỏi cái oi bức nóng nực của vùng đồng bằng Nam Bộ.
+        Da Lat is the capital of Lam Dong province. With an altitude of 1,500 m above sea level. Dalat's weather is cool, making it an ideal resort in the southern region.<br> 
+ Once famous for attractions such as the Valley of Love, Lake of Sighs, Two Tomb Pine Hill, Elephant Waterfall...<br>
+ Current main attractions when traveling to Da Lat include Xuan Huong Lake, Langbiang Peak, <br> Bao Dai Palace, Tran Le Xuan Villa, Truc Lam Zen Monastery, Tuyen Lam Lake, Da Lat Railway Station (Station Trai Mat)… <br>
+ Only about 300km from Saigon, Da Lat city is a wonderful resort. Helps tourists escape the sultry heat of the Southern Delta.
         </p>
     </div>
     <div class="container">
@@ -73,9 +73,9 @@
         <h2 class="fw-bold  text-center">SIGNATURE FOOD IN DALAT</h2>
         <div class="h-line bg-dark"></div>
         <p class="text-center mt-3">
-        Du lịch Đà Lạt là dịp để bạn thưởng thức những đặc sản thơm ngon gồm rượu vang và rượu cần, các loại trái cây (hồng tàu, hồng khía, hồng trứng; bơ, đào long, dâu tây, dâu tằm,…), <br>
-        các loại mứt, trà Bảo Lộc, trà Atiso, và các loại rau củ quả (cải bắp, cải thảo, bó xôi, súp lơ, Atiso, cần tây, đậu Hà Lan, cà rốt, khoai tây, su su, cải ngọt)… và vô vàn những món 
-        ăn thơm ngon hấp dẫn khác.
+        Traveling to Da Lat is an opportunity for you to enjoy delicious specialties including wine and wine, fruits (persimmon, persimmon, persimmon eggs; avocado, peach, strawberry, mulberry,...), <br>
+ jams, Bao Loc tea, artichoke tea, and fruits and vegetables (cabbage, Chinese cabbage, spinach, cauliflower, artichokes, celery, peas, carrots, potatoes, chayote, bok choy )… and countless other dishes
+ other delicious and attractive food.
         </p>
     </div>
     <div class="container">

@@ -34,7 +34,7 @@ function sendMail($email, $token, $type)
         $mail->Host = 'smtp.gmail.com;';
         $mail->SMTPAuth = true;
         $mail->Username = 'tuanva.ba11-097@st.usth.edu.vn';
-        $mail->Password = 'mxpccpbvqmwshdos';
+        $mail->Password = 'qpusngtgojsthtpd';
         $mail->SMTPSecure = 'tls';
         $mail->Port = 587;
         $mail->setFrom(SEND_MAIL, SEND_MAIL_NAME);

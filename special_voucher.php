@@ -50,7 +50,7 @@
                                                 <p class="card-text"><small class="text-body-secondary">From $row[from_date] to $row[to_date]</small></p>
                                                 <div class="mt-auto d-flex justify-content-between align-items-center">
                                                     <div class="mb-3 bg-white voucher">
-                                                        <a href="" class="text-decoration-none text-dark" >Lay ma: $row[voucher_code]</a>
+                                                        <a href="" class="text-decoration-none text-dark" >Get Code: $row[voucher_code]</a>
                                                     </div>
                                                 </div>
                                             </div>
