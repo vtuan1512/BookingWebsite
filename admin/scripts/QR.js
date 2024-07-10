@@ -44,7 +44,8 @@ async function checkPaid(price, content) {
         return;
     } else {
         try {
-            const response = await fetch("https://script.google.com/macros/s/AKfycbwHz-RC_Gxtt9YHZQ0ThEejvu4f12Zq8f4gElDLyPg3WxJ8s8IQhszrpe1iJPDtzwaJ/exec");
+            const response = await fetch("https://script.google.com/macros/s/AKfycbx7_-jWwxL-ByMmYNgH71ibnlLpyi0Zegw3S8gGooweZ2qsg3e0_koYm0FgUW_QTmqI/exec");
+            
             const data = await response.json();
 
             if (data && data.data && data.data.length > 0) {

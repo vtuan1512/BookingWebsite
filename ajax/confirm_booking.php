@@ -87,7 +87,7 @@ if (isset($_POST['voucher_code'])) {
         $row = $result_check->fetch_assoc();
 
         // Check if the voucher is for the same hotel or has a null hotel_id
-        if ($row['hotel_id'] === null || $row['hotel_id'] == $hotel_id) {
+        if ($row['hotel_id'] === 0 || $row['hotel_id'] == $hotel_id) {
             $voucher_type = $row['voucher_type'];
             $booking_min_value = $row['booking_min_value'];
             $quantity = $row['quantity'];
